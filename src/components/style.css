@@ -1,0 +1,69 @@
+#content1{
+    width: 18rem;
+    background-color: #f58e8e;
+}
+#content2{
+    width: 18rem;
+    background-color: #b5b5f5;
+}
+#content3{
+    width: 18rem;
+    background-color: #a6e5aa;
+}
+#content4{
+    width: 18rem;
+    background-color: #e1e8ef;
+}
+
+
+  @media screen and (max-width: 800px){
+    #card1 {
+     width: 50%;
+     background-color: #f58e8e;
+   }
+   #card2{
+       width: 50%;
+       background-color: #b5b5f5;
+     }
+     #card3{
+       width: 50%;
+       background-color: #a6e5aa;
+     }
+     #card4{
+       width: 50%;
+       background-color: #e1e8ef;
+     }
+     #content1 {
+        width: 100%;
+       
+      }
+      #content2{
+        width: 100%;
+      }
+      #content3 {
+        width: 100%;
+    
+      }
+      #content4 {
+        width: 100%;
+      }
+ }
+
+ @media screen and (max-width: 480px){
+    #card1,#content1 {
+     width: 100%;
+     background-color: #f58e8e;
+   }
+   #card2,#content2 {
+       width: 100%;
+       background-color: #b5b5f5;
+     }
+     #card3,#content3 {
+       width: 100%;
+       background-color: #a6e5aa;
+     }
+     #card4,#content4 {
+       width: 100%;
+       background-color: #e1e8ef;
+     }
+ }
